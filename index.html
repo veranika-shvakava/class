@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="group-btn">
+    <div class="group-figure">
+      <span>Выберите фигуру:</span>
+      <select name="figures" id="figures">
+        <option value="square" selected>Квадрат</option>
+        <option value="triangle">Треугольник</option>
+        <!-- <option value="circle">Круг</option> -->
+      </select>
+    </div>
+    <div class="group-color">
+      <span>Выберите цвет:</span>
+      <select name="colors" id="colors">
+        <option value="red" selected>Красный</option>
+        <option value="blue">Синий</option>
+        <option value="yellow">Желтый</option>
+      </select>
+    </div>
+    <button>Добавить</button>
+  </div>
+  <br>
+  <div id="carcass"></div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

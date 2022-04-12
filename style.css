@@ -1,0 +1,12 @@
+#carcass > canvas {
+  border: 1px solid salmon;
+  border-radius: 5px;
+}
+
+.group-btn {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
